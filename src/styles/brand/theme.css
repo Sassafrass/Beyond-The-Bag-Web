@@ -1,0 +1,10 @@
+@theme {
+  --color-linen: #f9f5ed;
+  --color-cream: #faeccc;
+  --color-goldenrod: #f2b72f;
+  --color-flame: #ff5503;
+  --color-azureblue: #008bcf;
+  --font-manrope: 'Manrope', sans-serif;
+  --font-anton: 'Anton', sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, SFMono-Regular;
+}
