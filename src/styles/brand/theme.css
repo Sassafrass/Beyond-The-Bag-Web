@@ -8,3 +8,17 @@
   --font-anton: 'Anton', sans-serif;
   --font-mono: 'DM Mono', ui-monospace, SFMono-Regular;
 }
+
+h2 {
+  font-family: var(--font-anton);
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  margin-bottom: 30px; /* Represents paragraph spacing */
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+html {
+  background-color: var(--color-linen);
+}

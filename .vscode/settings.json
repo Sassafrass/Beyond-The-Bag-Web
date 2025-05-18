@@ -13,5 +13,6 @@
     "ngClass",
     ".*ClassName"
   ],
-  "css.validate": false
+  "css.validate": false,
+  "editor.tabSize": 2
 }

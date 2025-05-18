@@ -1,0 +1,21 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Divider from '../components/Divider.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from '../components/BaseHead.astro';
+---
+
+<html lang="en" class="min-h-[100vh] h-full">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class="flex flex-col min-h-[100vh] h-full m-0 p-0">
+    <Divider class="bg-flame" />
+    <div class="p-10">
+      <Header />
+      <slot />
+    </div>
+    <Footer />
+  </body>
+</html>
