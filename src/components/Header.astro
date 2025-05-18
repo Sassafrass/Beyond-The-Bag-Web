@@ -1,6 +1,6 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { SITE_BASE, SITE_TITLE } from '../consts';
 import { Image } from 'astro:assets';
 import titleImage from '../assets/title.svg';
 ---
@@ -13,8 +13,8 @@ import titleImage from '../assets/title.svg';
     </div>
     <div class="flex items-center gap-15 justify-end">
       <h2 class="text-center">Building Tantos</h2>
-      <HeaderLink href="/about">About</HeaderLink>
-      <HeaderLink href="/">Posts</HeaderLink>
+      <HeaderLink href={`/${SITE_BASE}/about`}>About</HeaderLink>
+      <HeaderLink href={`/${SITE_BASE}/`}>Posts</HeaderLink>
     </div>
   </nav>
 </header>
